@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
 <body>
@@ -20,15 +25,15 @@
         <div class="weather-container">
 
             <!-- grand location container-->
-            <div class="grand-location-container">
-                <img src="#"width="80" height="80" loading="lazy">
-                <p>grand Location Access</p>
+            <div class="sub-container grand-location-container">
+                <img src="/assets/location.png"width="80" height="80" loading="lazy">
+                <p>Grant Location Access</p>
                 <p>Allow Access to get weather information</p>
-                <button class="btn" data-grantAccess>Grand Access</button>
+                <button class="btn" data-grantAccess>Grant Access</button>
             </div>
 
             <!-- search form -->
-            <form action="form-container" data-searchForm>
+            <form class="form-container" data-searchForm>
                 <input placeholder="Search for City..." data-searchInput>
                 <button class="btn" type="submit">
                     <img src="https://img.icons8.com/ios/50/000000/search--v1.png" width="20" height="20" loading="lazy">
@@ -36,13 +41,13 @@
             </form>
 
             <!-- loading screen container -->
-            <div class="loading-container">
-                <img src="#" width="80" height="80" loading="lazy">
+            <div class="sub-container loading-container">
+                <img src="/assets/loading.gif" width="80" height="80" loading="lazy">
                 <p>Loading...</p>
             </div>
 
             <!-- show weather information -->
-            <div class="user-info-container">
+            <div class="sub-container user-info-container">
 
                 <!-- city name & Flag -->
                 <div class="name">
@@ -60,21 +65,21 @@
 
                     <!-- cards 1-->
                     <div class="parameter">
-                        <img src="" >
+                        <img src="/assets/wind.png" >
                         <p>Windspeed</p>
                         <p data-windspeed></p>
                     </div>
 
                     <!-- cards 2-->
                     <div class="parameter">
-                        <img src="">
+                        <img src="/assets/humidity.png">
                         <p>Humidity</p>
                         <p data-humidity></p>
                     </div>
 
                     <!-- cards 3-->
                     <div class="parameter">
-                        <img src="">
+                        <img src="/assets/cloud.png">
                         <p>Cloudes</p>
                         <p data-cloudiness></p>
                     </div>

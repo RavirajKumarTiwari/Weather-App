@@ -1,0 +1,35 @@
+{
+	"workbench.colorCustomizations": {
+		"activityBar.activeBackground": "#002436",
+		"activityBar.background": "#002436",
+		"activityBar.foreground": "#e7e7e7",
+		"activityBar.inactiveForeground": "#e7e7e799",
+		"activityBarBadge.background": "#9f006a",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"commandCenter.border": "#e7e7e799",
+		"statusBar.background": "#000203",
+		"statusBar.foreground": "#e7e7e7",
+		"statusBarItem.hoverBackground": "#002436",
+		"statusBarItem.remoteBackground": "#000203",
+		"statusBarItem.remoteForeground": "#e7e7e7",
+		"titleBar.activeBackground": "#000203",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveBackground": "#00020399",
+		"titleBar.inactiveForeground": "#e7e7e799"
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"_ide_helper_models.php": true,
+		"_ide_helper*.php": true,
+		".vscode": true,
+		".git/logs": true,
+		".git": true,
+		"**/.idea": true,
+		".idea": true
+	}
+}
