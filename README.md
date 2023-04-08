@@ -40,11 +40,6 @@ This is a weather website built using HTML, CSS, and JavaScript, and utilizes th
 
 ![Weather Information](/assets/Patna.png)
 
-## **Acknowledgements**
-
-- OpenWeatherMap API for providing the weather data.
-- The icons used in this project are from **[Icons8](https://icons8.com/)**.
-
 ## **Usage**
 
 Enter the name of the city you want to search for in the search bar and press the Enter key or click the search button. The current weather data for the city will be displayed on the page.
